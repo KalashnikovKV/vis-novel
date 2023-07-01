@@ -1685,6 +1685,7 @@ log.txt matches None (None).
 update/ doesn't match anything.
 update/ matches None (None).
 renpy.sh matches renpy.sh (['linux', 'mac']).
+.github/ matches **/.* (None).
 doc/ doesn't match anything.
 doc/ matches None (None).
 README.md doesn't match anything.

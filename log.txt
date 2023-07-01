@@ -75,3 +75,4 @@ Maximum texture size: 4096x4096
 127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /game.zip HTTP/1.1" 200 -
 127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /icons/icon-144x144.png HTTP/1.1" 304 -
 127.0.0.1 - - [01/Jul/2023 12:31:40] "GET /service-worker.js HTTP/1.1" 304 -
+----
