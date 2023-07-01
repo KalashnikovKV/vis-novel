@@ -1,0 +1,57 @@
+{
+  "monkeypatch": "def change_renpy_executable():\n    import sys, os, renpy, site\n\n    if hasattr(site, \"RENPY_PLATFORM\") and hasattr(sys, \"renpy_executable\") and (renpy.linux or renpy.windows):\n        sys.renpy_executable = os.path.join(renpy.config.renpy_base, \"lib\", \"py3-\" + site.RENPY_PLATFORM, os.path.basename(sys.renpy_executable))\n\nchange_renpy_executable()\n",
+  "sdk": {
+    "version": "afa0d490d6da297bc07c45ffacb61ef45e6737461e6cc467c79b50d56adfa340",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "570beeaddf6ad24671baf8f62a409f95364b37503b0b186e1d6c205edacbd358",
+    "zsync_url": "renpy-8.1.0-sdk.zsync",
+    "sums_url": "renpy-8.1.0-sdk.sums",
+    "sums_size": 17396,
+    "json_url": "renpy-8.1.0-sdk.update.json"
+  },
+  "sdkarm": {
+    "version": "fbf7ec7b38328cb1ce0d150313365cf2828e4a27d0e37859749c4c637eb5c0f6",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "7bc8ed1863466dcec92cc96ba57da31433dde768a6c76f410f49b16472f528e5",
+    "zsync_url": "renpy-8.1.0-sdkarm.zsync",
+    "sums_url": "renpy-8.1.0-sdkarm.sums",
+    "sums_size": 20468,
+    "json_url": "renpy-8.1.0-sdkarm.update.json"
+  },
+  "steam": {
+    "version": "940fced17c869c8eb371259eef915ec499cdf2038edda5373153024c34a4f7e1",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "bc12ecef7c3fdcba96d7e2b6700d2a512983ecd8728361555779204b415e7db9",
+    "zsync_url": "renpy-8.1.0-steam.zsync",
+    "sums_url": "renpy-8.1.0-steam.sums",
+    "sums_size": 80,
+    "json_url": "renpy-8.1.0-steam.update.json"
+  },
+  "rapt": {
+    "version": "2df1301d2cccf52554727cfdbc20cc0f7e81c0a5f45ba601b2415b140629aa65",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "e5173d51d7768aba2690524af12552f702dee7cea0d9c4243aa6cd68eb8453e2",
+    "zsync_url": "renpy-8.1.0-rapt.zsync",
+    "sums_url": "renpy-8.1.0-rapt.sums",
+    "sums_size": 6660,
+    "json_url": "renpy-8.1.0-rapt.update.json"
+  },
+  "renios": {
+    "version": "00c434c246121c3deca623a5855a5c21949edb71a6d10c312870427f7bc98c22",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "f1c91ffd057c2087ddd941e8e8b43211eafb851d7bfa8ccde82c9e5a09661a20",
+    "zsync_url": "renpy-8.1.0-renios.zsync",
+    "sums_url": "renpy-8.1.0-renios.sums",
+    "sums_size": 17092,
+    "json_url": "renpy-8.1.0-renios.update.json"
+  },
+  "web": {
+    "version": "66ac9901ede9801907f2e250d68196264e41a37a7a9eabd76af2348b61804cf6",
+    "pretty_version": "Ren'Py 8.1.0.23051307",
+    "digest": "e9b963ccbd4a158f6835970603c79c51c1b21b90898e8eeba9b58030f39aba92",
+    "zsync_url": "renpy-8.1.0-web.zsync",
+    "sums_url": "renpy-8.1.0-web.sums",
+    "sums_size": 2352,
+    "json_url": "renpy-8.1.0-web.update.json"
+  }
+}

@@ -1,0 +1,9 @@
+running ['/home/sirano/Документы/VisNovels/Novels/vis-novel/lib/py3-linux-x86_64/zsync', '-o', '/home/sirano/Документы/VisNovels/Novels/vis-novel/update/web.update.new', '-k', '/home/sirano/Документы/VisNovels/Novels/vis-novel/update/web.zsync', '-i', '/home/sirano/Документы/VisNovels/Novels/vis-novel/update/web.update', 'http://update.renpy.org/8.1.0/renpy-8.1.0-web.zsync']
+-------------------- 0.0%######-------------- 33.6% 69.6 kBps 0:01 ETA  #################### 100.0% 46.4 kBps DONE    
+
+reading seed file /home/sirano/Документы/VisNovels/Novels/vis-novel/update/web.update: Read /home/sirano/Документы/VisNovels/Novels/vis-novel/update/web.update. Target 0.0% complete.      
+downloading from http://update.renpy.org/8.1.0/renpy-8.1.0-web.update.gz:
+-------------------- 0.0%-------------------- 0.3% 91.6 kBps 7:06 ETA  ####---------------- 23.7% 3696.6 kBps 0:03 ETA  #################### 100.0% 1515.3 kBps DONE    
+
+verifying download...checksum matches OK
+used 8192 local, fetched 14368520
