@@ -1,4 +1,4 @@
-Sat Jul  1 12:12:31 2023
+Sat Jul  1 16:11:48 2023
 Linux-5.19.0-46-generic-x86_64-with-glibc2.35
 Ren'Py 8.1.0.23051307
  
@@ -7,11 +7,11 @@ Bootstrap to the start of init.init. took 0.06s
 Early init. took 0.00s
 Loader init. took 0.01s
 Loading error handling. took 0.04s
-Loading script. took 0.45s
+Loading script. took 0.46s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Set script version to: None (alternate path)
-Running init code. took 0.45s
+Running init code. took 0.47s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.02s
@@ -28,12 +28,12 @@ Build styles took 0.00s
 Load screen analysis took 0.05s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.15s
+Prepare screens took 0.14s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.29s
+Interface start. took 0.31s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -46,50 +46,25 @@ Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
 ----
-127.0.0.1 - - [01/Jul/2023 12:14:04] code 404, message File not found
-127.0.0.1 - - [01/Jul/2023 12:14:04] "GET /index.html HTTP/1.1" 404 -
-127.0.0.1 - - [01/Jul/2023 12:14:04] code 404, message File not found
-127.0.0.1 - - [01/Jul/2023 12:14:04] "GET /favicon.ico HTTP/1.1" 404 -
 ----
-127.0.0.1 - - [01/Jul/2023 12:14:35] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /web-presplash.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /renpy-pre.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /renpy.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /service-worker.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /renpy.data HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /renpy.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /manifest.json HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:14:36] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
-----
-127.0.0.1 - - [01/Jul/2023 12:31:30] "GET /index.html HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /web-presplash.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /renpy-pre.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /renpy.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /renpy.data HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /renpy.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /manifest.json HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 12:31:31] "GET /icons/icon-144x144.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 12:31:40] "GET /service-worker.js HTTP/1.1" 304 -
-----
-----
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /web-presplash.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /renpy-pre.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /renpy.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /renpy.data HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /renpy.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /manifest.json HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:02] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:12] "GET /service-worker.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jul/2023 13:05:29] "GET /index.html HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 13:05:29] "GET /manifest.json HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 13:05:38] "GET /service-worker.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 13:05:39] "GET /service-worker.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jul/2023 13:05:42] "GET /service-worker.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /web-presplash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /renpy-pre.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /renpy.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /renpy.data HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /renpy.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jul/2023 16:51:33] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:34] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:42] "GET /service-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20room.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20dorm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20busstop%20dorm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20bus.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20busstop%20uni.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:46] "GET /game/images/1_act/fon/locations/location%20university.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:51:51] "GET /game/images/1_act/fon/locations/location%20hall.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:52:01] "GET /game/images/1_act/fon/locations/location%20aud.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jul/2023 16:52:01] "GET /game/images/1_act/fon/locations/location%20basement.jpg HTTP/1.1" 200 -

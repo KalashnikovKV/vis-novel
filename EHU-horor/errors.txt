@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 15: end of line expected.
+    scene location dorm.jpg
+                       ^
+
+Ren'Py Version: Ren'Py 8.1.0.23051307
+Sat Jul  1 16:38:18 2023
