@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: end of line expected.
-    scene location dorm.jpg
-                       ^
+File "game/screens.rpy", line 360: frame expects a non-empty block.
+    frame:
+          ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sat Jul  1 16:38:18 2023
+Sun Jul  9 13:26:25 2023

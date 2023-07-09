@@ -1,5 +1,6 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
+
 # Определение персонажей игры.
 define e = Character('Somebody', color="#000000")
 
@@ -12,41 +13,53 @@ define e = Character('Somebody', color="#000000")
 label start:
 
     with fade
-    scene location room
-    e "TEXT"
+    scene 11 telephone alarm
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location dorm
+    scene 11 location room morning 
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location busstop dorm
+    scene 13 location room v2
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location bus
+    scene 13 location room v1
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location busstop uni
+    scene 33 location dorm
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location university
+    scene 31 location busstop dorm
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location hall
+    scene 33 location bus
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location aud
+    scene 33 location busstop uni
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene location basement
+    scene 41 location university
     with fade
-    e "TEXT"
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-#    show eileen happy
+    scene 51 location hallway 
+    with fade
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    return
+    scene 61 location auditory
+    with fade
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+
+    scene 71 location basement
+    with fade
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+
+return
+
+

@@ -1,0 +1,60 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/screens.rpy", line 351, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 351, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 357, in execute
+    add menu_slideshow
+  File "game/screens.rpy", line 357, in <module>
+    add menu_slideshow
+NameError: name 'menu_slideshow' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3499, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3969, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
+    d.visit_all(callback, seen)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 476, in visit_all
+    callback(self)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3969, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 487, in per_interact
+    self.update()
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 680, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 351, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 351, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 357, in execute
+    add menu_slideshow
+  File "game/screens.rpy", line 357, in <module>
+    add menu_slideshow
+NameError: name 'menu_slideshow' is not defined
+
+Linux-5.19.0-46-generic-x86_64-with-glibc2.35 x86_64
+Ren'Py 8.1.0.23051307
+EHU horror 0.1
+Sun Jul  9 13:47:56 2023

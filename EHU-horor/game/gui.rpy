@@ -2,6 +2,19 @@
 ## Инициализация
 ################################################################################
 
+
+image menu_slideshow:
+    "gui/overlay/71 location basement.jpg" with dissolve
+    pause 3.0
+    "gui/overlay/02 cover basement dark.jpg" with dissolve
+    pause 1.0
+    "gui/overlay/71 location basement.jpg" with dissolve
+    pause 1.0
+    "gui/overlay/02 cover basement dark.jpg" with dissolve
+    pause 1.0
+    "gui/overlay/71 location basement.jpg" with dissolve
+    pause 1.0
+    repeat
 ## Оператор init offset повышает приоритет инициализации в этом файле над
 ## другими файлами, из-за чего инициализация здесь запускается первее.
 init offset = -2
@@ -83,14 +96,14 @@ define gui.label_text_size = 36
 define gui.notify_text_size = 24
 
 ## Размер заголовка игры.
-define gui.title_text_size = 75
+define gui.title_text_size = 35
 
 
 ## Главное и игровое меню. #####################################################
 
 ## Изображения, используемые в главном и игровом меню.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "menu_slideshow"
+define gui.game_menu_background = "gui/overlay/71 location basement.jpg"
 
 
 ## Диалог ######################################################################
