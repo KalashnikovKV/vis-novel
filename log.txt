@@ -134,3 +134,15 @@ Maximum texture size: 4096x4096
 127.0.0.1 - - [09/Jul/2023 15:03:15] "GET /game/images/1_act/fon/locations/13%20location%20room%20v1%20.jpg HTTP/1.1" 304 -
 127.0.0.1 - - [09/Jul/2023 15:03:15] "GET /game/images/1_act/fon/locations/33%20location%20dorm.jpg HTTP/1.1" 304 -
 127.0.0.1 - - [09/Jul/2023 15:03:15] "GET /game/images/1_act/fon/locations/31%20location%20busstop%20dorm.jpg HTTP/1.1" 304 -
+----
+127.0.0.1 - - [09/Jul/2023 15:18:21] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:21] "GET /web-presplash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:21] "GET /renpy-pre.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /renpy.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /renpy.data HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /renpy.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:22] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jul/2023 15:18:26] "GET /service-worker.js HTTP/1.1" 200 -
