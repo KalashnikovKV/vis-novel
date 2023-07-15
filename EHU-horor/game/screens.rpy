@@ -354,7 +354,8 @@ screen main_menu():
     ## заменять этот.
     tag menu
 
-    add gui.main_menu_background
+    add gui.main_menu_background_slide
+    # add gui.basement_silhouettes
 
     ## Эта пустая рамка затеняет главное меню.
     frame:
@@ -382,11 +383,14 @@ style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
+# style basement_silhouettes_frame:
+#     background "basement_silhouettes"
+
 style main_menu_frame:
     xsize 420
     yfill True
 
-    # background "gui/overlay/main_menu.png"
+    # background "basement_silhouettes"
 
 style main_menu_vbox:
     xalign 1.0

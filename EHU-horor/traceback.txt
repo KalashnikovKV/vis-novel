@@ -1,15 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/screens.rpy", line 351, in execute
-    screen main_menu():
-  File "game/screens.rpy", line 351, in execute
-    screen main_menu():
-  File "game/screens.rpy", line 357, in execute
-    add menu_slideshow
-  File "game/screens.rpy", line 357, in <module>
-    add menu_slideshow
-NameError: name 'menu_slideshow' is not defined
+While loading <renpy.display.im.Image object ('images/1_act/fon/locations/02 cover basement dark lights off 10.jpg') at 0x7ff099584640>:
+OSError: Couldn't find file 'images/1_act/fon/locations/02 cover basement dark lights off 10.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -28,33 +20,56 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3499, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3969, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 476, in visit_all
-    callback(self)
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3969, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 487, in per_interact
-    self.update()
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 680, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 351, in execute
-    screen main_menu():
-  File "game/screens.rpy", line 351, in execute
-    screen main_menu():
-  File "game/screens.rpy", line 357, in execute
-    add menu_slideshow
-  File "game/screens.rpy", line 357, in <module>
-    add menu_slideshow
-NameError: name 'menu_slideshow' is not defined
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 4089, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 2699, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 731, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/image.py", line 513, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/image.py", line 316, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/transform.py", line 909, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 979, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 404, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/im.py", line 676, in render
+    return cache.get(self, render=True)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/im.py", line 330, in get
+    surf = image.load()
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/im.py", line 803, in load
+    raise e
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/im.py", line 757, in load
+    filelike = renpy.loader.load(self.filename, directory="images")
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/1_act/fon/locations/02 cover basement dark lights off 10.jpg'.
 
 Linux-5.19.0-46-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.1.0.23051307
 EHU horror 0.1
-Sun Jul  9 13:47:56 2023
+Sat Jul 15 19:26:41 2023
