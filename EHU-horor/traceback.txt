@@ -1,21 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('images/1_act/fon/locations/02 cover basement dark lights off 10.jpg') at 0x7ff099584640>:
-OSError: Couldn't find file 'images/1_act/fon/locations/02 cover basement dark lights off 10.jpg'.
+While loading <renpy.display.im.Image object ('33 location busstop model bus.png') at 0x7f76237db4c0>:
+  File "game/script.rpy", line 41, in script
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+OSError: Couldn't find file '33 location busstop model bus.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
+  File "game/script.rpy", line 41, in script
+    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/character.py", line 1349, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/character.py", line 1000, in do_display
+    display_say(who,
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/character.py", line 690, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ui.py", line 299, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/core.py", line 3499, in interact
@@ -38,24 +42,16 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/screen.py", line 731, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/layout.py", line 886, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
+  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/transform.py", line 909, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 979, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 404, in renpy.display.accelerator.RenderTransform.render_child
   File "render.pyx", line 266, in renpy.display.render.render
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/image.py", line 513, in render
     return wrap_render(self.target, width, height, st, at)
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/image.py", line 316, in wrap_render
     rend = render(child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/transform.py", line 909, in render
-    return RenderTransform(self).render(width, height, st, at)
-  File "accelerator.pyx", line 979, in renpy.display.accelerator.RenderTransform.render
-  File "accelerator.pyx", line 404, in renpy.display.accelerator.RenderTransform.render_child
   File "render.pyx", line 266, in renpy.display.render.render
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/display/im.py", line 676, in render
     return cache.get(self, render=True)
@@ -67,9 +63,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename, directory="images")
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/loader.py", line 833, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/1_act/fon/locations/02 cover basement dark lights off 10.jpg'.
+OSError: Couldn't find file '33 location busstop model bus.png'.
 
 Linux-5.19.0-46-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.1.0.23051307
 EHU horror 0.1
-Sat Jul 15 19:26:41 2023
+Sun Jul 16 19:11:50 2023
