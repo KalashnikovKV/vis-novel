@@ -1,17 +1,17 @@
-Sun Jul 16 14:33:41 2023
-Linux-5.19.0-46-generic-x86_64-with-glibc2.35
+Sun Jul 30 16:38:46 2023
+Linux-5.19.0-50-generic-x86_64-with-glibc2.35
 Ren'Py 8.1.0.23051307
  
 
 Bootstrap to the start of init.init. took 0.06s
 Early init. took 0.00s
 Loader init. took 0.01s
-Loading error handling. took 0.05s
-Loading script. took 0.68s
+Loading error handling. took 0.04s
+Loading script. took 0.61s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Set script version to: None (alternate path)
-Running init code. took 0.53s
+Running init code. took 0.52s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.02s
@@ -19,11 +19,11 @@ Index archives took 0.00s
 Dump and make backups. took 0.00s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.04s
 DPI scale factor: 1.000000
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.06s
 Analyze screens took 0.00s
@@ -33,7 +33,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.21s
+Interface start. took 0.26s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,32 +45,3 @@ Version: b'4.6.0 NVIDIA 515.105.01'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
-----
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /index.html HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /web-presplash.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /renpy-pre.js HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /renpy.js HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /renpy.data HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /renpy.wasm HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /manifest.json HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:14] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:15] "GET /game.zip HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:23] "GET /service-worker.js HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:26] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20on%201.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:27] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20off%201.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/11%20telephone%20alarm.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/11%20location%20room%20morning%20.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/13%20location%20room%20v2.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/13%20location%20room%20v1%20.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/33%20location%20dorm.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:29] "GET /game/images/1_act/fon/locations/71%20location%20basement.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:41] "GET /game/images/1_act/fon/locations/31%20location%20busstop%20dorm.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:43] "GET /game/images/1_act/fon/locations/33%20location%20bus.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:45] "GET /game/images/1_act/fon/locations/33%20location%20busstop%20uni%201.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:46] "GET /game/images/1_act/fon/silhouettes/33%20location%20busstop%20model%20bus.png HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:51] "GET /game/images/1_act/fon/locations/41%20location%20university%20.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:51] "GET /game/images/1_act/fon/locations/42%20location%20universitys%20enter.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:51] "GET /game/images/1_act/fon/locations/51%20location%20hallway%20.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [16/Jul/2023 19:24:51] "GET /game/images/1_act/fon/locations/61%20location%20auditory.jpg HTTP/1.1" 200 -

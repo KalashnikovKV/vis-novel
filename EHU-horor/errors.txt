@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 29: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    pause 1.0
+File "game/script.rpy", line 21: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show 13 valiaetca
     ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Jul 16 19:14:56 2023
+Mon Jul 24 16:17:16 2023

@@ -8,16 +8,8 @@ image menu_slideshow:
     pause 2.5
     "basement_dark_lights_on_off" 
     pause 2.5
-    # "images/1_act/fon/locations/02 cover basement dark lights off 1f.jpg" 
-    # pause 1.0
-    # "images/1_act/fon/locations/02 cover basement dark 00.jpg" 
-    # pause 2.0
-    # "images/1_act/fon/locations/02 cover basement dark lights off 1.jpg" 
-    # pause 2.0
     "images/1_act/fon/locations/02 cover basement dark lights on 1.jpg"
     pause 2.5
-    # "images/1_act/fon/locations/02 cover basement dark lights off 1s.jpg" 
-    # pause 1.0
     "basement_dark_lights_on_off" 
     pause 2.5
     repeat
@@ -42,6 +34,14 @@ image basement_dark_lights_on_off:
     "images/1_act/fon/locations/02 cover basement dark lights off 1.jpg" 
     pause 1.0
 
-# image 33_location_busstop_model_bus:
-#     "/images/1_act/fon/silhouettes/33 location busstop model bus.png" 
-#     pause 3.0
+image 2_location_dormitory:
+    "images/1_act/fon/locations/2 location dormitory sc 1.jpg" with dissolve
+    choice:
+        pause 1.5
+    choice:
+        pause 2.0
+    choice:
+        pause 1.0
+    "images/1_act/fon/locations/2 location dormitory sc 2.jpg" with dissolve
+    pause 1.0
+    repeat

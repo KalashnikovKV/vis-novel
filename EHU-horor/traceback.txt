@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('33 location busstop model bus.png') at 0x7f76237db4c0>:
-  File "game/script.rpy", line 41, in script
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
-OSError: Couldn't find file '33 location busstop model bus.png'.
+While loading <renpy.display.im.Image object ('images/1_act/hero/13 valiaetca 1.png') at 0x7f5630a35cd0>:
+  File "game/script.rpy", line 22, in script
+    nothing "Закинув рюкзак на плечо, покинула комнату взглядом. Комната выглядела аккуратной и по-общажному уютной. Соседка Варя сменила позу, негромко что-то пробормотав во сне."
+OSError: Couldn't find file 'images/1_act/hero/13 valiaetca 1.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 41, in script
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+  File "game/script.rpy", line 22, in script
+    nothing "Закинув рюкзак на плечо, покинула комнату взглядом. Комната выглядела аккуратной и по-общажному уютной. Соседка Варя сменила позу, негромко что-то пробормотав во сне."
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/ast.py", line 930, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/exports.py", line 1473, in say
@@ -63,9 +63,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename, directory="images")
   File "/home/sirano/Документы/Vis-novels/vis-novel/renpy/loader.py", line 833, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file '33 location busstop model bus.png'.
+OSError: Couldn't find file 'images/1_act/hero/13 valiaetca 1.png'.
 
 Linux-5.19.0-46-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.1.0.23051307
 EHU horror 0.1
-Sun Jul 16 19:11:50 2023
+Mon Jul 24 16:29:22 2023
