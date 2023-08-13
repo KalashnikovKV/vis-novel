@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 21: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show 13 valiaetca
-    ^
+File "game/script_animations.rpy", line 40: expected 'comma or end of line' not found.
+    pause 1.8 with fade
+              ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Mon Jul 24 16:17:16 2023
+Sat Aug 12 18:09:03 2023

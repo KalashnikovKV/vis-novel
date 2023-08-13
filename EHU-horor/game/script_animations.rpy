@@ -35,13 +35,18 @@ image basement_dark_lights_on_off:
     pause 1.0
 
 image 2_location_dormitory:
+    "images/1_act/fon/locations/2 location dormitory sc 2.jpg" with dissolve
+    choice:
+        pause 1.8
+    choice:
+        pause 1.2
+    choice:
+        pause 1.9
     "images/1_act/fon/locations/2 location dormitory sc 1.jpg" with dissolve
     choice:
-        pause 1.5
+        pause 1.8
     choice:
-        pause 2.0
+        pause 1.2
     choice:
-        pause 1.0
-    "images/1_act/fon/locations/2 location dormitory sc 2.jpg" with dissolve
-    pause 1.0
+        pause 1.9
     repeat

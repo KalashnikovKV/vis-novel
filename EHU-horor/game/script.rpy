@@ -68,7 +68,7 @@ label start:
     scene 71 location basement with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene 73 location basement aud copy with fade
+    scene 73 location basement aud with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
 ####################### 1 ACT ######################
