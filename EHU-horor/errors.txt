@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script_animations.rpy", line 40: expected 'comma or end of line' not found.
-    pause 1.8 with fade
-              ^
+File "game/script_animations.rpy", line 36: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    choice:
+    ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sat Aug 12 18:09:03 2023
+Wed Aug 16 13:01:41 2023

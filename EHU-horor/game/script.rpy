@@ -3,6 +3,7 @@ define e = Character("Bus")
 define nothing = Character("")
 define zhenya = Character("Женя")
 image model_bus = "33 location busstop model bus"
+image model_monk = "/images/1_act/hero/AI PNG/ai figure 02 basement 1.png"
 label start:
 
 ####################### 1 ACT ######################
@@ -19,7 +20,7 @@ label start:
     nothing "В последний раз взглянув на себя, я отошла от зеркала, готовая к выходу."
 
     scene 13 location room v2 with fade
-    show valiaetca
+    # show valiaetca
     nothing "Закинув рюкзак на плечо, покинула комнату взглядом. Комната выглядела аккуратной и по-общажному уютной. Соседка Варя сменила позу, негромко что-то пробормотав во сне."
     zhenya "Интересно, сны у неё такие же странные, как и она сама? И почему она до сих пор спит.., у второго курса другое расписание?"
     nothing "Вздохнув, я вышла из комнаты, почти бесшумно закрыв за собой дверь."
@@ -32,10 +33,13 @@ label start:
     zhenya "Погода такая же паршивая, как и настроение... С другой стороны, сегодня должно быть интересно, первый же день."
 
     scene 31 location busstop dorm with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+    nothing "Серые улицы и недовольные лица людей - очень похоже на утро понедельника."
+    zhenya "Главное сесть на нужный автобус и выйти на нужной остановке. Не хотелось бы потеряться в незнакомом городе и, тем более, опоздать на первую пару в году"
 
     scene 33 location bus with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+    nothing "Незнакомые пейзажи сменяли друг друга, а непонятное волнение в груди наростало"
+    zhenya "Ого, уже студентка. Ещё и в другой стране. А ведь, кажется, вчера только в школу пошла. Сколько сил потрачено для этого переезда. Годы в художке не прошли зря"
+    nothing "Казалось, в автобусе время тянется бесконечно долго. Интересно, это из-за утренних пробок или внутреннего волнения."
 
     scene 33 location busstop uni 1 with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
