@@ -47,3 +47,4 @@ Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
 ----
 ----
+----
