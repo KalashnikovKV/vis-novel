@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script_animations.rpy", line 36: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    choice:
-    ^
+File "game/script.rpy", line 35: end of line expected.
+    show hero walk_location dormitory_01.png
+                                        ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Wed Aug 16 13:01:41 2023
+Sun Sep  3 14:55:10 2023

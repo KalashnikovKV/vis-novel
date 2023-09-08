@@ -1,5 +1,5 @@
-Thu Aug 31 11:52:42 2023
-Linux-6.2.0-31-generic-x86_64-with-glibc2.35
+Fri Sep  8 15:31:24 2023
+Linux-6.2.0-32-generic-x86_64-with-glibc2.35
 Ren'Py 8.1.0.23051307
  
 
@@ -7,14 +7,14 @@ Bootstrap to the start of init.init. took 0.06s
 Early init. took 0.00s
 Loader init. took 0.01s
 Loading error handling. took 0.04s
-Loading script. took 0.46s
+Loading script. took 0.60s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Set script version to: None (alternate path)
-Running init code. took 0.46s
+Running init code. took 0.52s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.01s
+Reloading save slot metadata. took 0.02s
 Index archives took 0.00s
 Dump and make backups. took 0.00s
 Cleaning cache. took 0.00s
@@ -33,7 +33,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.31s
+Interface start. took 0.37s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,6 +45,27 @@ Version: b'4.6.0 NVIDIA 525.125.06'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
+----
+----
+127.0.0.1 - - [08/Sep/2023 17:16:14] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /web-presplash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /renpy-pre.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /renpy.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /renpy.data HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /renpy.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:15] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:24] "GET /service-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:27] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20on%201.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:28] "GET /game/images/1_act/fon/locations/11%20telephone%20alarm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:28] "GET /game/images/1_act/fon/locations/11%20location%20room%20morning.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:28] "GET /game/images/1_act/hero/old/12%20mirror.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:28] "GET /game/images/1_act/fon/locations/13%20location%20room%20v2%20.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:28] "GET /game/images/1_act/fon/locations/71%20location%20basement.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 17:16:29] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20off%201.jpg HTTP/1.1" 200 -
 ----
 ----
 ----

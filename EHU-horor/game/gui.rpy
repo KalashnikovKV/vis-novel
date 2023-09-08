@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## Цвета текста в интерфейсе.
 
 ## Акцентный цвет используется в заголовках и подчёркнутых текстах.
-define gui.accent_color = '#000000'
+define gui.accent_color = '#ffffffa4'
 
 ## Цвет, используемый в текстовой кнопке, когда она не выбрана и не наведена.
 define gui.idle_color = '#707070'
@@ -51,8 +51,8 @@ define gui.muted_color = '#666666'
 define gui.hover_muted_color = '#999999'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#404040'
-define gui.interface_text_color = '#404040'
+define gui.text_color = '#ffffff79'
+define gui.interface_text_color = '#ffffff79'
 
 
 ## Шрифты и их размеры #########################################################
@@ -99,7 +99,7 @@ define gui.game_menu_background = "/images/1_act/fon/locations/71 location basem
 ## Эти переменные контролируют, как диалог появляется на отдельной строчке.
 
 ## Высота текстового окна, содержащего диалог.
-define gui.textbox_height = 278
+define gui.textbox_height = 277
 
 ## Местоположение текстового окна по вертикали экрана. 0.0 — верх, 0.5 — центр и
 ## 1.0 — низ.
@@ -119,8 +119,8 @@ define gui.name_xalign = 0.0
 
 ## Ширина, высота и границы окна, содержащего имя персонажа или None, для
 ## автоматической размерки.
-define gui.namebox_width = None
-define gui.namebox_height = None
+define gui.namebox_width = 402
+define gui.namebox_height = 75
 
 ## Границы окна, содержащего имя персонажа слева, сверху, справа и снизу по
 ## порядку.
@@ -135,7 +135,7 @@ define gui.namebox_tile = False
 ## значения в пикселях слева и сверху от текстового окна или процентное
 ## отношение, например, 0.5 для центрирования.
 define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 75
+define gui.dialogue_ypos = 65
 
 ## Максимальная ширина текста диалога в пикселях.
 define gui.dialogue_width = 1116
