@@ -69,3 +69,44 @@ Maximum texture size: 4096x4096
 ----
 ----
 ----
+----
+----
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /web-presplash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /renpy.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /renpy-pre.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /icons/icon-72x72.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /renpy.data HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /renpy.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /manifest.json HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /icons/icon-144x144.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:09] "GET /game.zip HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:18] "GET /service-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:21] "GET /game/audio/Lurking-Shadows-Myuu.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:21] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20on%201.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:21] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20off%201.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:22] "GET /game/images/1_act/fon/locations/11%20telephone%20alarm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:22] "GET /game/images/1_act/fon/locations/11%20location%20room%20morning.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:23] "GET /game/images/1_act/hero/old/12%20mirror.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:23] "GET /game/images/1_act/fon/locations/13%20location%20room%20v2%20.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2023 20:20:23] "GET /game/images/1_act/fon/locations/71%20location%20basement.jpg HTTP/1.1" 200 -
+----
+127.0.0.1 - - [08/Sep/2023 20:20:32] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:32] "GET /web-presplash.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:32] "GET /renpy-pre.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:32] "GET /renpy.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /icons/icon-72x72.png HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /renpy.data HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /renpy.wasm HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /game.zip HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /manifest.json HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:33] "GET /icons/icon-144x144.png HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:42] "GET /service-worker.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:44] "GET /game/audio/Lurking-Shadows-Myuu.ogg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:44] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20on%201.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/fon/locations/02%20cover%20basement%20dark%20lights%20off%201.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/fon/locations/11%20telephone%20alarm.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/fon/locations/11%20location%20room%20morning.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/hero/old/12%20mirror.png HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/fon/locations/13%20location%20room%20v2%20.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/Sep/2023 20:20:46] "GET /game/images/1_act/fon/locations/71%20location%20basement.jpg HTTP/1.1" 304 -

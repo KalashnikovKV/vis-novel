@@ -1,43 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-OSError: Couldn't find file 'music/Lurking-Shadows-Myuu.ogg'.
+  File "game/script.rpy", line 16, in script
+    play music mone
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 16, in <module>
+    play music mone
+NameError: name 'mone' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 3499, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 4293, in interact_core
-    renpy.audio.audio.periodic()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1224, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1202, in periodic_thread_main
-    periodic_pass()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1144, in periodic_pass
-    c.periodic()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 534, in periodic
-    topf = load(filename)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 72, in load
-    rv = renpy.loader.load(fn, directory="audio")
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/loader.py", line 833, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'music/Lurking-Shadows-Myuu.ogg'.
+  File "game/script.rpy", line 16, in script
+    play music mone
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 2259, in execute
+    self.call("execute")
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 2241, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/statements.py", line 342, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/python.py", line 1153, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/python.py", line 1146, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 16, in <module>
+    play music mone
+NameError: name 'mone' is not defined
 
 Linux-6.2.0-32-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.1.0.23051307
 EHU horror 0.1
-Fri Sep  8 17:25:11 2023
+Fri Sep  8 20:17:16 2023

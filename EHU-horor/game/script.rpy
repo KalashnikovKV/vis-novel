@@ -11,7 +11,10 @@ label start:
 
     # $ renpy.movie_cutscene('videos/Bubble.ogv')
     # nothing "asdfasdas"
-    with fade
+    # with fade
+
+    stop music
+
     scene 11 telephone alarm
     nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
     zhenya "нужно вставать, собираться"
