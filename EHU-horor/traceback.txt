@@ -1,93 +1,43 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('game/images/1_act/text box/textbox.png') at 0x7f32fe9a54c0>:
-  File "game/script.rpy", line 16, in script
-    nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
-  File "game/script.rpy", line 16, in script
-    nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
-  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
-    _window_show(auto=True)
-  File "renpy/common/000window.rpy", line 69, in _window_show
-    renpy.with_statement(trans)
-OSError: Couldn't find file 'game/images/1_act/text box/textbox.png'.
+While running game code:
+OSError: Couldn't find file 'music/Lurking-Shadows-Myuu.ogg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/bootstrap.py", line 275, in bootstrap
-    renpy.main.main()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/main.py", line 670, in main
-    run(restart)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/main.py", line 144, in run
-    renpy.execution.run_context(True)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/execution.py", line 942, in run_context
-    context.run()
-  File "game/script.rpy", line 16, in script
-    nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
-  File "game/script.rpy", line 16, in script
-    nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 898, in execute
-    statement_name(stmt_name)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 47, in statement_name
-    i(name)
-  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
-    _window_show(auto=True)
-  File "renpy/common/000window.rpy", line 69, in _window_show
-    renpy.with_statement(trans)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/exports.py", line 1757, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 2895, in do_with
-    return self.interact(trans_pause=True,
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 3499, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 4089, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 2699, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/layout.py", line 886, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/transition.py", line 379, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/layout.py", line 886, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/layout.py", line 886, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/screen.py", line 731, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/layout.py", line 886, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/layout.py", line 1371, in render
-    back = render(style.background, bw, bh, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/im.py", line 676, in render
-    return cache.get(self, render=True)
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/im.py", line 330, in get
-    surf = image.load()
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/im.py", line 803, in load
-    raise e
-  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/im.py", line 757, in load
-    filelike = renpy.loader.load(self.filename, directory="images")
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/display/core.py", line 4293, in interact_core
+    renpy.audio.audio.periodic()
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1224, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1202, in periodic_thread_main
+    periodic_pass()
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 1144, in periodic_pass
+    c.periodic()
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 534, in periodic
+    topf = load(filename)
+  File "/home/sirano/Документы/V-N/vis-novel/renpy/audio/audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
   File "/home/sirano/Документы/V-N/vis-novel/renpy/loader.py", line 833, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'game/images/1_act/text box/textbox.png'.
+OSError: Couldn't find file 'music/Lurking-Shadows-Myuu.ogg'.
 
 Linux-6.2.0-32-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.1.0.23051307
 EHU horror 0.1
-Fri Sep  8 15:58:32 2023
+Fri Sep  8 17:25:11 2023
