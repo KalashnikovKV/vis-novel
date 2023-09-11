@@ -25,17 +25,17 @@ define config.check_conflicting_properties = True
 ## Цвета текста в интерфейсе.
 
 ## Акцентный цвет используется в заголовках и подчёркнутых текстах.
-define gui.accent_color = '#ffffffa4'
+define gui.accent_color = '#ffffff88'
 
 ## Цвет, используемый в текстовой кнопке, когда она не выбрана и не наведена.
-define gui.idle_color = '#707070'
+define gui.idle_color = '#606060'
 
 ## Small_color используется в маленьком тексте, который должен быть ярче/темнее,
 ## для того, чтобы выделяться.
 define gui.idle_small_color = '#606060'
 
 ## Цвет, используемых в кнопках и панелях, когда они наведены.
-define gui.hover_color = '#ffffff'
+define gui.hover_color = '#ffffffa4'
 
 ## Цвет, используемый текстовой кнопкой, когда она выбрана, но не наведена.
 ## Кнопка может быть выбрана, если это текущий экран или текущее значение
@@ -51,20 +51,20 @@ define gui.muted_color = '#666666'
 define gui.hover_muted_color = '#999999'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#ffffff79'
-define gui.interface_text_color = '#ffffff79'
+define gui.text_color = '#ffffff77'
+define gui.interface_text_color = '#606060'
 
 
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "OpenSans-VariableFont_wdth,wght.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "OpenSans-VariableFont_wdth,wght.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "OpenSans-VariableFont_wdth,wght.ttf"
 
 ## Размер нормального текста диалога.
 define gui.text_size = 33
@@ -91,7 +91,8 @@ define gui.title_text_size = 35
 define gui.main_menu_background_slide = "menu_slideshow"
 # define gui.basement_silhouettes = "basement_silhouettes"
 
-define gui.game_menu_background = "/images/1_act/fon/locations/71 location basement.jpg"
+define gui.game_menu_background = "menu_slideshow"
+define gui.main_menu_background = "menu_slideshow"
 
 
 ## Диалог ######################################################################
@@ -138,7 +139,7 @@ define gui.dialogue_xpos = 402
 define gui.dialogue_ypos = 65
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 1300
 
 ## Горизонтальное выравнивание текста диалога. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного

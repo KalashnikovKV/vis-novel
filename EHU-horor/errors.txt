@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 35: end of line expected.
-    show hero walk_location dormitory_01.png
-                                        ^
+File "game/script.rpy", line 71: Line is indented, but the preceding pause statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    xalign 4.0 yalign 0.0
+    ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Sep  3 14:55:10 2023
+Sun Sep 10 16:12:10 2023

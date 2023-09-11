@@ -13,7 +13,7 @@ label start:
     # nothing "asdfasdas"
     # with fade
 
-    stop music
+    stop music fadeout 1.5
 
     scene 11 telephone alarm
     nothing "Ранние подъёмы мне всегда давались с трудом. Сегодняшнее утро не стало исключением. Однако, именно этот день считается особенным в жизни каждого студента. Особенный, потому что первый."
@@ -56,20 +56,25 @@ label start:
     nothing "Казалось, в автобусе время тянется бесконечно долго. Интересно, это из-за утренних пробок или внутреннего волнения."
 
     scene 33 location busstop uni with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
     show model_bus:
         xalign -4.0 yalign 1.1
         linear 4.0 xalign 0.0
-        pause 2.0
-        linear 10.0 xalign 10.0
-    e "bla1 bla1 bla1 bla bla bla bla bla bla bla bla bla"
-    pause 2.0
+        # pause 2.0
+        # linear 10.0 xalign 10.0
+    zhenya "Завидев знакомые пейзажи за окном, я быстро поднялась и направилась к выходу."
+    zhenya "Спасибо Варе, которая съездила со мной день назад сюда и показала дорогу до университета."
+    # pause 2.0
 
-    scene 33 location busstop uni 1 with fade
-    e "bla12 bla12bla bla bla bla bla bla bla bla bla bla" with dissolve
+    scene 33 location busstop uni with fade
+    show model_bus:
+        pause 1.0
+        xalign 0.0 yalign 1.1
+        linear 3.0 xalign 4.0
+        linear 5.0 xalign 10.0
+    zhenya "Покинув автобус на нужной остановке, я направилась по заученному маршруту." with dissolve
 
     scene 41 location university with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+    zhenya "По дороге я рассматривала местные дома и вывески магазинов и ресторанов. Не смотря на то, что была здесь ещё вчера, удавалось замечать много новых деталей. Архитектура в Старом городе заставляла невольно улыбаться."
 
     scene 42 location universitys enter with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
