@@ -4,8 +4,10 @@ define nothing = Character("...")
 define zhenya = Character("Женя")
 image model_bus = "33 location busstop model bus"
 image model_monk = "/images/1_act/hero/AI PNG/ai figure 02 basement 1.png"
+image model_dust = "/images/1_act/fon/locations/02 DUST cover basement dark.png"
 
 label start:
+    $ default_mouse = "default"
 
 ####################### 1 ACT ######################
 
@@ -20,6 +22,11 @@ label start:
     zhenya "нужно вставать, собираться"
 
     scene 11 location room morning with fade
+    show model_dust:
+        xalign 0.0 yalign 0.9
+        linear 30.0 xalign -0.3
+        linear 30.0 xalign 0.0
+        repeat
     nothing "Всего пару песен в наушниках из любимого плейлиста и вот я уже стою готовая перед зеркалом, морально настраиваю себя  на предстоящую учёбу."
     
     scene 12 mirror with fade
@@ -75,12 +82,19 @@ label start:
 
     scene 41 location university with fade
     zhenya "По дороге я рассматривала местные дома и вывески магазинов и ресторанов. Не смотря на то, что была здесь ещё вчера, удавалось замечать много новых деталей. Архитектура в Старом городе заставляла невольно улыбаться."
+    zhenya "Дорога до университета заняла меньше времени, чем я думала."
 
     scene 42 location universitys enter with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+    show screen buttons_42 
+    zhenya "Пришла, вроде, заранее, а людей всё равно немало уже"
+    nothing "Решив не терять больше времени я вошла в здание."
+    hide screen buttons_42
+
 
     scene 51 location hallway with fade
-    e "bla bla bla bla bla bla bla bla bla bla bla bla"
+    nothing "Войдя внутрь я принялась рассматривать всё, что меня окружало. Не смотря на то. что вчера я ездила с Варей сюда - внутрь мы не заходили. И теперь каждая деталь интерьера вызывала у меня любопытство."
+    zhenya "А здесь довольно комфортно и отдохнуть есть где. Осталось найти аудиторию.."
+    nothing "Пройдясь по коридору первого этажа я быстро отыскала нужную дверь. Она, как и остальные на этаже, была открыта."
 
     scene 61 location auditory with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
@@ -88,7 +102,14 @@ label start:
     scene 63 location auditory table with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene 71 location basement with fade
+    scene 02 cover basement dark lights on 1 with fade
+    show model_dust:
+        xalign 0.0 yalign 0.0
+        linear 10.0 xalign 0.1
+        linear 10.0 xalign -0.1
+        linear 10.0 xalign 0.1
+        linear 10.0 xalign 0.0
+        repeat
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
     scene 73 location basement aud with fade
