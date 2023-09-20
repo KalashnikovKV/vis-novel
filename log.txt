@@ -1,4 +1,4 @@
-Wed Sep 13 13:54:01 2023
+Tue Sep 19 18:10:27 2023
 Linux-6.2.0-32-generic-x86_64-with-glibc2.35
 Ren'Py 8.1.0.23051307
  
@@ -11,7 +11,7 @@ Loading script. took 0.60s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Set script version to: None (alternate path)
-Running init code. took 0.51s
+Running init code. took 0.52s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.02s
@@ -25,15 +25,15 @@ Creating interface object. took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.05s
+Load screen analysis took 0.06s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.14s
+Prepare screens took 0.15s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.21s
+Interface start. took 0.23s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,4 +45,3 @@ Version: b'4.6.0 NVIDIA 525.125.06'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096
-----

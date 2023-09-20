@@ -102,7 +102,7 @@ label start:
     scene 63 location auditory table with fade
     e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
-    scene 02 cover basement dark lights on 1 with fade
+    scene 71 location basement with fade
     show model_dust:
         xalign 0.0 yalign 0.0
         linear 10.0 xalign 0.1
