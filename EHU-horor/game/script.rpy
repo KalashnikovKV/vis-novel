@@ -19,32 +19,36 @@ label start:
     zhenya "нужно вставать, собираться"
 
     scene 11 location room morning with fade
+    show screen buttons_11 
     show model_dust:
         xalign 0.0 yalign 0.9
         linear 30.0 xalign -0.3
         linear 30.0 xalign 0.0
         repeat
     nothing "Всего пару песен в наушниках из любимого плейлиста и вот я уже стою готовая перед зеркалом, морально настраиваю себя  на предстоящую учёбу."
-    
+    hide screen buttons_11
+
     scene 12 mirror with fade
     zhenya "Всё будет хорошо, всё будет хорошо."
     nothing "В последний раз взглянув на себя, я отошла от зеркала, готовая к выходу."
 
     scene 13 location room v2 with fade
+    show screen buttons_13
     nothing "Закинув рюкзак на плечо, покинула комнату взглядом. Комната выглядела аккуратной и по-общажному уютной. Соседка Варя сменила позу, негромко что-то пробормотав во сне."
     zhenya "Интересно, сны у неё такие же странные, как и она сама? И почему она до сих пор спит.., у второго курса другое расписание?"
     nothing "Вздохнув, я вышла из комнаты, почти бесшумно закрыв за собой дверь."
+    hide screen buttons_13
 
     # scene 13 location room v1 with fade
     # e "bla bla bla bla bla bla bla bla bla bla bla bla"
 
     scene 2_location_dormitory with fade
-    show 02_hero_01 with blinds
+    show 02_hero_01 with dissolve
     pause 0.5
     nothing "Асфальт на улице был по-прежнему мокрым, после ночного дождя. Осень давала о себе знать. Листва, опавшая с деревьев, прилипала к обуви, пока я шла к остановке до университета." with fade
     pause 0.5
     hide 02_hero_01
-    show 02_hero_02 with blinds
+    show 02_hero_02 with dissolve
     pause 0.5
     zhenya "Погода такая же паршивая, как и настроение... С другой стороны, сегодня должно быть интересно, первый же день." with fade
     hide 02_hero_02

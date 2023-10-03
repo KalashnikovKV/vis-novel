@@ -52,3 +52,23 @@ screen buttons_51:
     action [ Show("info_panel_42")]
     hovered SetVariable("default_mouse", 'loupe')
     unhovered SetVariable("default_mouse", 'default')
+
+screen buttons_11:
+  imagebutton:
+    xpos 272
+    ypos 301
+    idle "/gui/button/11 location room morning button hidden 301x272.png"
+    hover "/gui/button/11 location room morning button show 301x272.png"
+    action [ Show("info_panel_42")]
+    hovered SetVariable("default_mouse", 'loupe')
+    unhovered SetVariable("default_mouse", 'default')
+
+screen buttons_13:
+  imagebutton:
+    xpos 1421
+    ypos 203
+    idle "/gui/button/13 location room v2 button hidden 1421x233.png"
+    hover "/gui/button/13 location room v2 button show 1421x233.png"
+    action [ Show("info_panel_42")]
+    hovered SetVariable("default_mouse", 'loupe')
+    unhovered SetVariable("default_mouse", 'default')
