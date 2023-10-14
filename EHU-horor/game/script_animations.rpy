@@ -1,6 +1,5 @@
 
 # image model_bus =  SnowBlossom('33_location_busstop_model_bus', count=1, xspeed=(-200), yspeed=(0), horizontal=True)
-image model_monk = "/images/1_act/hero/AI PNG/ai figure 02 basement 1.png"
 
 
 # Анимация
@@ -51,3 +50,20 @@ image 2_location_dormitory:
     choice:
         pause 1.9
     repeat
+
+# image 31_nps:
+#     '31_nps_01' with dissolve
+#     choice:
+#         pause 1.8
+#     choice:
+#         pause 1.2
+#     choice:
+#         pause 1.9
+#     '31_nps_02' with dissolve
+#     choice:
+#         pause 1.8
+#     choice:
+#         pause 1.2
+#     choice:
+#         pause 1.9
+#     repeat

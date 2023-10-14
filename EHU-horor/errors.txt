@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script_buttons.rpy", line 17: 'width' is not a keyword argument or valid child of the vbox statement.
-    width 50 height 25
-         ^
+File "game/script_animations.rpy", line 55: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    31_nps_01 with dissolve
+              ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Tue Sep 12 17:18:48 2023
+Sun Sep 24 18:32:22 2023
